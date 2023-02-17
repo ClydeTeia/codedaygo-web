@@ -1,0 +1,165 @@
+body{
+  height: 3000px;
+  max-height: 3600px;
+  width: auto;
+  background-image: url('./img/background.jpg');
+  background-size: contain;
+  mask-repeat: no-repeat;
+  font-family: 'inter'
+}
+
+h1{
+  color: #F8982C;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h3{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h5{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.top-bar{
+  width: auto;
+  height: auto;
+  background-color: #000000;
+  display: flex;
+  margin: none;
+  align-items: center;
+}
+
+.logo{
+  width: 70px;
+  aspect-ratio: 1 / 1;
+  background-image: url('./img/codedaygo.png');
+  background-size: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  border-radius: 50px;
+  mask-repeat: no-repeat;
+}
+
+.navigate{
+  width: auto;
+  margin-left: auto;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation-buttons{
+  height: 50px;
+  width: auto;
+  display: inline-block;
+  color: #F8982C;
+  font-size: 30px;
+  font-weight: 750;
+  background-color: #000000;
+  border: none;
+  margin-right: 40px;
+}
+
+.bottom-bar{
+  width: 100%;
+  height: 50px;
+  background-color: #151633;
+  position: fixed;
+  bottom: 0px
+}
+
+.container-all {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outline-box {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 22, 51, 1);
+  border-color: rgba(94, 94, 94, 1);
+  border-radius: 35px;
+  color: white;
+  display: flex;
+  border: solid;
+  border-color: #5E5E5E;
+  border-width: 3px;
+  border-radius: 35px;
+  padding-bottom: 50px;
+  
+}
+
+.profile-outline {
+  padding: 1%;
+  display: flex;
+  
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.profile-picture {
+  width: 50%;
+  height: 50%;
+
+  border-radius: 50%;
+  background-image: url('./img/codedaygo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+ 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content {
+  display: block;
+  font-size: 100;
+  margin-right: 30px;
+  margin-left: 10px;
+
+
+}
+
+
+.description-head{
+  margin-bottom: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.description-body{
+  margin-bottom: 30px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.description-quote{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.description-date {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 55%;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+
